@@ -1,0 +1,1 @@
+{ sizeGb : Natural, type : Text }
