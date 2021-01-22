@@ -2,7 +2,9 @@
 , application = None Text
 , name = None Text
 , id = None Text
+, spelEvaluator = None Text
 , index = None Natural
+, lastModifiedBy = None Text
 , updateTs = Some "0"
 , parameterConfig = None (List ../types/ParameterConfig.dhall)
 , limitConcurrent = True

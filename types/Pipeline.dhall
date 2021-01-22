@@ -2,6 +2,7 @@
 , application : Optional Text
 , name : Optional Text
 , id : Optional Text
+, spelEvaluator : Optional Text
 , index : Optional Natural
 , lastModifiedBy : Optional Text
 , updateTs : Optional Text
