@@ -48,6 +48,9 @@
 , requiredArtifactIds : Optional (List Text)
 , requiredArtifacts : Optional (List Text)
 , namespaceOverride : Optional Text
+, namespace : Optional Text
+, templateRenderer : Optional Text
+, inputArtifacts : Optional (List ./InputArtifact.dhall)
 , skipExpressionEvaluation : Optional Bool
 , source : Optional Text
 , trafficManagement : Optional ./TrafficManagement.dhall

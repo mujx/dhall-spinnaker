@@ -45,6 +45,9 @@
 , requiredArtifactIds = None (List Text)
 , requiredArtifacts = None (List Text)
 , namespaceOverride = None Text
+, namespace = None Text
+, templateRenderer = None Text
+, inputArtifacts = None (List ../types/InputArtifact.dhall)
 , skipExpressionEvaluation = None Bool
 , source = None Text
 , trafficManagement = None ../types/TrafficManagement.dhall
