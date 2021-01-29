@@ -51,6 +51,7 @@
 , namespace : Optional Text
 , templateRenderer : Optional Text
 , inputArtifacts : Optional (List ./InputArtifact.dhall)
+, outputName : Optional Text
 , skipExpressionEvaluation : Optional Bool
 , source : Optional Text
 , trafficManagement : Optional ./TrafficManagement.dhall

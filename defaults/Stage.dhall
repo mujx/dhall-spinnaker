@@ -48,6 +48,7 @@
 , namespace = None Text
 , templateRenderer = None Text
 , inputArtifacts = None (List ../types/InputArtifact.dhall)
+, outputName = None Text
 , skipExpressionEvaluation = None Bool
 , source = None Text
 , trafficManagement = None ../types/TrafficManagement.dhall
