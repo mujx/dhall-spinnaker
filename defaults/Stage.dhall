@@ -50,6 +50,7 @@
 , inputArtifacts = None (List ../types/InputArtifact.dhall)
 , outputName = None Text
 , rawOverrides = None Bool
+, overrides = Some ([] : List { mapKey : Text, mapValue : Text })
 , skipExpressionEvaluation = None Bool
 , source = None Text
 , trafficManagement = None ../types/TrafficManagement.dhall

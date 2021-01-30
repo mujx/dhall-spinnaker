@@ -53,6 +53,7 @@
 , inputArtifacts : Optional (List ./InputArtifact.dhall)
 , outputName : Optional Text
 , rawOverrides : Optional Bool
+, overrides : Optional (List { mapKey : Text, mapValue : Text })
 , skipExpressionEvaluation : Optional Bool
 , source : Optional Text
 , trafficManagement : Optional ./TrafficManagement.dhall
