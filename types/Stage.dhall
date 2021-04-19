@@ -45,6 +45,7 @@
 , pipeline : Optional Text
 , manifestArtifactId : Optional Text
 , manifestArtifactAccount : Optional Text
+, manifestArtifact : Optional ./ManifestArtifact.dhall
 , requiredArtifactIds : Optional (List Text)
 , requiredArtifacts : Optional (List Text)
 , namespaceOverride : Optional Text

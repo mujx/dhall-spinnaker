@@ -42,6 +42,7 @@
 , pipeline = None Text
 , manifestArtifactId = None Text
 , manifestArtifactAccount = None Text
+, manifestArtifact = None ../types/ManifestArtifact.dhall
 , requiredArtifactIds = None (List Text)
 , requiredArtifacts = None (List Text)
 , namespaceOverride = None Text
